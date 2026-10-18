@@ -1,1 +1,16 @@
 # Notes
+The editor Nene Leaks of the Valorian times wakes up to a scandaloous article posted about Luffy a known environmental activist was involved in a secret land deal but Nene did not approve of this article to be posted.
+Last person to review articles is the Newspaper Printer Clark Kent who received the final draft from the intern Ronnie Mclovin
+Ronnie said she was in charge of another post but never got to sedn it due to oversleeping but CLark Kent swore he received it from an Email with the name Ronnie Mclovin.
+CLark Kent recived an email from Ronnie on January 31st with the subject line URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper))
+The doc received in the email was named OpEdFinal_to_print.docx
+Senior Editor Sonia Gose says she might have some infromation to help us during our investigation.
+She showed us a phishing email sent at 2024-01-05 09:42:05+00:00 where the sender email was newspaper_jobs@gmail.com
+The URL in the email was to a doc file offering a job oppurtunity - https://promotionrecruit[.]com/published/Valdorian_Times_Editorial_Offer_Letter.docx
+She clicked the loink at 2024-01-05 10:23:17+00:00
+The docx file in the link she clicked was Valdorian_Times_Editorial_Offer_Letter.docx
+She downlaoded the file on her device UL0M-MACHINE on 2024-01-05 10:24:04+00:00
+The SHA-256 of the file is 60b854332e393a6a2f0015383969c3ac705126a6b7829b762057a3994967a61f
+The powershell script written to disk after downloading the docx was hacktivist_manifesto.ps1
+It created three different unique events. One was the first time it ran one was the schtask to make it run recurringly and one was for it bypass policy
+plink.exe is run for 136.130.190.181 on port 3389 for RDP
